@@ -23,7 +23,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   site: 'https://y-izutsu.github.io',
-  base: '/astrowind-sandbox/',
+  base: '/astrowind-sandbox',
   
   output: 'static',
 
