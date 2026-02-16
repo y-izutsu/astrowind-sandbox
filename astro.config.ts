@@ -22,7 +22,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  site: 'https://y-izutsu.github.io',
+  site: 'https://y-izutsu.github.io/astrowind-sandbox',
   base: '/astrowind-sandbox',
   
   output: 'static',
